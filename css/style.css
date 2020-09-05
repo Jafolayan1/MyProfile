@@ -1,0 +1,27 @@
+
+html {
+    overflow-x: hidden;
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-color: #111 !important;
+  }
+  
+  .poppins-font {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .open-sans-font {
+    font-family: 'Open Sans', sans-serif;
+  }

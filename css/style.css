@@ -315,7 +315,7 @@ section.jay .section-title::after{
     transition: .3s linear;
 }
 
-.service.icon{
+.service .icon{
     color: #48dbfb;
     font-size: 40px;
     margin-bottom:20px;
@@ -333,6 +333,54 @@ section.jay .section-title::after{
 
 .service:hover .icon{
     color: #fff;
+}
+
+.time-line{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: calc(50% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding:30px;
+    position: relative;
+}
+
+.block::before{
+    content: "";
+    position:absolute;
+    width:1px;
+    height: 120%;
+    background-color: #ddd;
+    left:-20px;
+    top: 50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.block::after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height:16px;
+    background-color: #48dbfb;
+    left: -28px;
+    top: 30px;
+    border-radius: 50%;
+}
+
+.block h3{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.block p{
+    font-size: 15px;
+    color: #444;
 }
 
 @media screen and (max-width: 980px)
@@ -394,6 +442,11 @@ section.jay .section-title::after{
 
     .service{
         width: calc(50% - 20px);
+    }
+
+    .block{
+        width: calc(100% - 20px);
+        margin-left: auto;
     }
 }
 

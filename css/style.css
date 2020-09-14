@@ -139,8 +139,9 @@
   }
   
   #home .content h1::after{
-    content: "Joshua";
+    content: "Joshua Afolayan";
     animation: textanim 10s linear infinite;
+    color: #48dbfb;
   }
   
   @keyframes textanim{
@@ -342,7 +343,7 @@
   .service{
     width: calc(33% - 20px);
     text-align: center;
-    border: 1px solid #48dbfb;
+    border: 1px solid #81e5fc;
     border-radius: 6px;
     margin: 20px 0;
     padding: 40px 20px;
@@ -364,7 +365,7 @@
   }
   
   .service:hover{
-    background-color: #48dbfb;
+    background-color: #848788;
   }
   
   .service:hover .icon{

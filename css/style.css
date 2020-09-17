@@ -603,7 +603,7 @@
     outline: none;
     display: none;
   }
-  
+
   @media screen and (max-width: 980px){
     .menu-toggler{
       display: block;

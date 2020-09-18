@@ -280,8 +280,8 @@
   }
   
   .skill-bar{
-    height: 1.5px;
-    background-color: #ddd;
+    height: 0.5px;
+    background-color: rgb(233, 233, 233);
     margin-top: 14px;
     position: relative;
   }

@@ -492,10 +492,6 @@
     height: 100px;
   }
   
-  .contact-info .item:hover{
-    /* background-color: #48dbfb; */
-  }
-  
   .contact-form{
     display: flex;
     justify-content: space-between;

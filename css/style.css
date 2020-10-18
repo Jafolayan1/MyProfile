@@ -146,7 +146,7 @@
   
   @keyframes textanim{
     50%{
-      content: "A Developer";
+      content: "A Dotnet Developer";
     }
   
   }
@@ -337,7 +337,7 @@
   .services{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
   }
   
   .service{
